@@ -1,0 +1,11 @@
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.deps.json
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.runtimeconfig.json
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.runtimeconfig.dev.json
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.dll
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.csprojResolveAssemblyReference.cache
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.csproj.CoreCompileInputs.cache
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.AssemblyInfoInputs.cache
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.AssemblyInfo.cs
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\bin\Debug\netcoreapp2.0\MessageBoardBackend.pdb
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.dll
+E:\Projects\Angular-Asp.net-Messageboard\MessageBoardBackend\MessageBoardBackend\obj\Debug\netcoreapp2.0\MessageBoardBackend.pdb

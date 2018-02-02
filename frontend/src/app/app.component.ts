@@ -14,6 +14,6 @@ import { NewMessageComponent } from './new-message.component'
 export class AppComponent {
   @ViewChild(MessagesComponent) messages : MessagesComponent
   onPosted(message) {
-this.messages.messages.push(message);
+//this.messages.messages.push(message);
   }
 }

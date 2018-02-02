@@ -15,7 +15,8 @@ export class WebService {
        this.messages = response.json();
     }
 
-    postMessage(message) {
-        return this.http.post(this.BASE_URL + '/messages', message).toPromise();
+    async postMessage(message) {
+        var response = await this.http.post(this.BASE_URL + '/messages', message).toPromise();
+        this.messages.push(response.json());
     }
 }

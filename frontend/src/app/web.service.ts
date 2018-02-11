@@ -7,8 +7,9 @@ import { MatSnackBar } from '@angular/material';
 @Injectable()
 export class WebService {
     BASE_URL = 'http://localhost:52835/api';
-  private messages = [];
-    messageSubject = new Subject();
+  private messageStore = [];
+    private messageSubject = new Subject();
+    messages = this.messageSubject.asObservable();
     constructor(private http: Http, private sb: MatSnackBar) {
         //this.getMessages();
     }
@@ -27,7 +28,8 @@ export class WebService {
     async postMessage(message) {
         try {
             var response = await this.http.post(this.BASE_URL + '/messages', message).toPromise();
-            this.messages.push(response.json());   
+            this.messageStore.push(response.json()); 
+            this.messageSubject.next(this.messageStore);  
         } catch (error) {
             this.handleError("Unable to Post message");  
         }
